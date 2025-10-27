@@ -34,4 +34,4 @@ eureka:
 gemini:
   api:
     url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
-    key: "AIzaSyCo4BhXy496NEcW8bwcO0lRCTo0jwxlHbI"
+    key: GEMINI_KEY
