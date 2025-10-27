@@ -17,7 +17,7 @@ public class UserValidationService {
         log.info("Calling user service for internal validation");
         try{
             return Boolean.TRUE.equals(userServiceWebClient.get()
-                    .uri("http://USERSERVICE/api/users/{userId}/validate", userId)  // Full URL with service name
+                    .uri("http://USER-SERVICE/api/users/{userId}/validate", userId)  // Full URL with service name
                     .retrieve()
                     .bodyToMono(Boolean.class)
                     .block());
